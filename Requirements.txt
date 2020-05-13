@@ -1,0 +1,39 @@
+
+Assume that your friend has asked you to create a simple web application for his pizza business(or any other e-business you choose). The system should have a web page to submit online orders. In the order page, the customer should be able to choose choices like: pizza size, sauce, cheese, topping etc. You should use CSS to make your webpage looks professional, and use Javascript to validate all user input. Depending on the choices of the customer, the total price of the order should be different. 
+
+Again, all the user inputs should be validated using Javascript or HTML5 or PHP if necessary. (40pts)
+
+There should be a submit order button. When the button is clicked, the order information will be submitted to the server side PHP script. The PHP script will return an approximate waiting time. The waiting depends on the number of orders submitted up to now. (25pts)
+
+All the orders should be saved to MySQL database. (You may need the tables your created during class) 15pts
+
+2. Create a separate php page to display all the current orders. The orders should be retrieved from your database table(s). 20pts
+
+You can use this shared database from your department server:
+
+host: www.math-cs.ucmo.edu
+
+username: cs4130_sp2020
+
+password: tempPWD!
+
+database:cs4130_sp2020
+
+Please create your own table(s) in this database. Make sure you give a unique table name for your own tables. I would suggest you name it like: Name initials underscore table name, eg. dd_order
+Please continue to work on your e-comerce website by making the following improvements:
+
+For each order, the employee of your store can mark when the order was ready (cooked) and when the order was delivered/picked up. These two datatime information should also be saved to the database. In short, you should maintain three datetime into your database: the time the order was submitted, the time the order was cooked and the time the order was delivered/picked up. 90pts
+
+4. Make sure you have at least 20 order records in your database. 10pts
+
+Bonus(30 points):
+
+You can get bonus points if you can create a third php webpage to display report of your pizza business. The managers/stakeholders always like report. Here are some examples of the content of the report:
+
+The total sales/ distribution of orders according to: size, number of toppings etc.
+
+Order distribution based on place datetime: Monday through Friday, or Morning, Afternoon, Evening, or by hours.
+
+Order fulfill time frame: how long does it take to full fill orders. The length of time between submitted and cooked.
+
+You can create some nice graphics or just display the numbers.

@@ -1,0 +1,28 @@
+Drop database if exists pizzaShop;
+Create database pizzaShop;
+
+drop table if exists pizza_orders;
+
+Use pizzaShop;
+
+Create table customer {
+	id int unsigned not null auto_increment Primary Key,
+	name varchar(30) not null,
+	street1 varchar(40) not null,
+	street2 varchar(40),
+	apt_num varchar(5),
+	city varchar(30) not null,
+	state varchare(30) not null,
+	zip varchar(10) not null
+	phone varchar(15) not null,
+	email varchar(40) not null
+}
+
+create table pizza_orders(
+	id int not null AUTO_INCREMENT PRIMARY KEY,
+    pizza_size varchar(15) not null,
+    pizza_crust varchar(15) not null,
+    pizza_sauce varchar(15) not null,
+    cheese varchar(15) not null,
+    oreder_date DATETIME NOT NULL DEFAULT NOW()
+);

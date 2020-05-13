@@ -1,0 +1,54 @@
+body {
+background-color: rgb(131, 230, 244);
+margin: 0 auto;
+  background: url('images/background.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#baseDiv {
+  background-color: grey;
+}
+.header{
+}
+
+p{
+  color: black;
+}
+
+p.steps{
+  color: goldenrod;
+  font-size: x-large;
+}
+
+#phrase{
+  font-family: Cinzel;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 100px;
+  position: relative;
+  margin-top: 0px;
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#pictureDiv{
+  position: fixed;
+  background-color: grey;
+  margin-left: 1000px;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+#buttonDiv{
+  margin-top: 10px;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+li{
+  visibility: hidden;
+}
+ /*Neon Sign*/
+ 
