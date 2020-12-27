@@ -4,12 +4,15 @@ $user = "root";
 $pwd = "";
 $db = "comments";
 
+//Database Configurations
 $conn = mysqli_connect($server, $user, $pwd, $db);
 if ($conn->connect_error) {
     die("Connection Failed");
-} else {
+} 
+else {
     echo "<p style='color: aqua'> Successful Connection </p>";
 }
+
 //If Button Is Clicked 
 if (isset($_GET['compute'])) {
 
@@ -27,10 +30,12 @@ if (isset($_GET['compute'])) {
             echo $row['comments'];
         }
     }
+    
     //Query Data
     if (!mysqli_query($conn, $sql)) {
         echo 'Must Insert';
-    } else {
+    } 
+    else {
         echo 'Inserted';
     }
     // header("refresh:15; url=index.php");
