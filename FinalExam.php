@@ -1,7 +1,7 @@
 <?php
 $server = "localhost";
 $user = "root";
-$pwd = "iCode0325";
+$pwd = "";
 $db = "comments";
 
 $conn = mysqli_connect($server, $user, $pwd, $db);
