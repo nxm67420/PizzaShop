@@ -1,7 +1,7 @@
 <?php
 $server = "localhost";
 $user = "root";
-$pwd = "";
+$pwd = "iCode0325";
 $db = "pizzaShop";
 
 $conn = mysqli_connect($server, $user, $pwd, $db);
